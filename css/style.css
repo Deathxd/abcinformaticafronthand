@@ -1,0 +1,1590 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+button#botaoSair{
+    width: 150px;
+}
+/*MENU FORUM ANONIMO*/
+
+p#perguntasAnonimas{
+    font-size: 40px;
+    font-weight:bolder ;
+    text-align: center;
+    margin-right: 20%;
+}
+p#userAnonimoP{
+    font-size: 20px;
+    font-weight: bold;
+}
+img#userAnonimo{
+    width: 150px;
+    margin-top: 20px;
+}
+img#logoAnonimo{
+    margin-left: 50px;
+    width: 150px;
+}
+img#logoAnonimo2{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+a.menuAnonimo{
+    padding-right: 100px;
+}
+/********************/
+
+/*MENSSAGEM DE ERRO NOS CAMPOS*/
+.erro {
+    background-color: #ffa293;
+    border: 1px solid #c23d3d !important;
+    /*color: #fff !important;*/
+}
+/**/
+/*CONFIGURANDO A FONTE */
+.container#novidades {
+    font-size: 25px;
+}
+.container#novidades h5 {
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container#oqueSomos{
+    text-align: justify;
+    font-size: 25px;
+}
+
+.container#sobreNos{
+    font-size: 25px;
+}
+.container#formCadastro{
+    font-size: 25px;
+}
+.container#formCadastro label{
+    font-size: 25px;
+}
+.container#formCadastro input{
+    font-size: 20px;
+}
+.container#formLogin{
+    font-size: 25px;
+}
+.container#formLogin label{
+    font-size: 25px;
+}
+
+.container#nomesFooter{
+    font-size: 20px;
+}
+/**/
+/*FIGURAS DAS TABELAS*/
+figure.legenda{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 1px 4px 4px black;
+    margin: 0px auto 0px auto;
+    transition: -webkit-transform 1s;
+    transition:  -ms-transform 1s;
+    transition: transform 1s;
+
+}
+figure.legenda img{
+    width: 100%;
+    height:100%;
+}
+
+figure.legenda figcaption{
+    color: whitesmoke;
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    transition: opacity 1s;
+    box-sizing: border-box;
+
+}
+
+figure.legenda:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+figure.legenda:hover figcaption{
+    opacity: 1;
+}
+ /**/
+
+/*TABELA*/
+ table#tutoriais{
+     width: 100%;
+    margin-top: 10px;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ table#tutoriais td{
+    padding: 10px;
+
+}
+
+ table#tutoriais figure{
+    width: 230px;
+}
+/**/
+
+
+/*Tutoriais*/
+.wall{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.wall:target{
+    display: block;
+}
+
+
+/*************EMAIL******************/
+img#emailBanner{
+    width: 500px;
+}
+/*************PRIMEIRA PARTE********************/
+.container#emailTutorial div#wall-1 p{
+    font-size: 25px;
+}
+.container#emailTutorial div#wall-1 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#emailTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#emailTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************SEGUNDA PARTE********************/
+.container#emailTutorial div#wall-2 p{
+    font-size: 25px;
+}
+.container#emailTutorial div#wall-2 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 600px;
+    margin-top: -200px;
+}
+
+.container#emailTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v2{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************TERCEIRA PARTE********************/
+.container#emailTutorial div#wall-3 p{
+    font-size: 20px;
+}
+.container#emailTutorial div#wall-3 img{
+    width:330px;
+    margin-left: 720px;
+    margin-top: -800px;
+    margin-bottom: 100px;
+}
+
+.container#emailTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v3{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+}
+
+/*TERCEIRA PARTE (PARTE 1) *******************/
+
+.container#emailTutorial div#wall-3-1 p{
+    font-size: 20px;
+}
+.container#emailTutorial div#wall-3-1 img{
+    width:330px;
+    margin-left: 720px;
+    margin-top: -800px;
+}
+
+.container#emailTutorial div#wall-3-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v3-1{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a3-1{
+    display: block;
+    float: right;
+}
+
+/**********************************************/
+
+/*TERCEIRA PARTE (PARTE 2) *******************/
+
+.container#emailTutorial div#wall-3-2 p{
+    font-size: 20px;
+}
+.container#emailTutorial div#wall-3-2 img{
+    width:330px;
+    margin-left: 700px;
+    margin-top: -800px;
+}
+
+.container#emailTutorial div#wall-3-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v3-2{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a3-2{
+    display: block;
+    float: right;
+}
+
+/**********************************************/
+/*TERCEIRA PARTE (PARTE 3) *******************/
+
+.container#emailTutorial div#wall-3-3 p{
+    font-size: 20px;
+}
+.container#emailTutorial div#wall-3-3 img{
+    width:300px;
+    margin-left: 730px;
+    margin-top: -800px;
+}
+
+.container#emailTutorial div#wall-3-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v3-3{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a3-3{
+    display: block;
+    float: right;
+}
+
+/**********************************************/
+
+/**********************************************/
+/*************QUARTA PARTE********************/
+.container#emailTutorial div#wall-4 p{
+    font-size: 25px;
+}
+.container#emailTutorial div#wall-4 img{
+    margin-top: -140px;
+    width:500px;
+    margin-left: 500px;
+
+}
+
+.container#emailTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#emailTutorial a.voltar#v4{
+    display: block;
+    float: left;
+
+}
+.container#emailTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUINTA PARTE********************/
+.container#emailTutorial div#wall-5 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#emailTutorial div#wall-5 img{
+    margin-top: -400px;
+    width:500px;
+    margin-left: 540px;
+
+}
+
+.container#emailTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#emailTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#emailTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/*************SEXTA PARTE********************/
+.container#emailTutorial div#wall-6 p{
+    font-size: 25px;
+}
+.container#emailTutorial div#wall-6 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#emailTutorial div#wall-6 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#emailTutorial a.voltar#v6{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#emailTutorial a.Avançar#a6{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*********************************************/
+
+
+
+/*************SENHA******************/
+
+img#emailBanner{
+    width: 500px;
+}
+/*************PRIMEIRA PARTE********************/
+.container#senhaTutorial div#wall-1 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-1 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#senhaTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#senhaTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#senhaTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************SEGUNDA PARTE********************/
+.container#senhaTutorial div#wall-2 p{
+   font-size: 25px;
+}
+.container#senhaTutorial div#wall-2 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+
+.container#senhaTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#senhaTutorial a.voltar#v2{
+    display: block;
+    float: left;
+
+}
+.container#senhaTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************TERCEIRA PARTE********************/
+.container#senhaTutorial div#wall-3 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-3 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 600px;
+    margin-top: -80px;
+}
+
+.container#senhaTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#senhaTutorial a.voltar#v3{
+    display: block;
+    float: left;
+
+}
+.container#senhaTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUARTA PARTE********************/
+.container#senhaTutorial div#wall-4 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-4 img{
+    margin-top: -140px;
+    width:250px;
+    margin-left: 500px;
+
+}
+
+.container#senhaTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#senhaTutorial a.voltar#v4{
+    display: block;
+    float: left;
+    margin-top: 320px;
+
+}
+.container#senhaTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUINTA PARTE********************/
+.container#senhaTutorial div#wall-5 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-5 img{
+    margin-top: -100px;
+    width:250px;
+    margin-left: 500px;
+
+}
+
+.container#senhaTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#senhaTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 400px;
+
+
+}
+.container#senhaTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************SEXTA PARTE********************/
+.container#senhaTutorial div#wall-6 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-6 img{
+    margin-top: -100px;
+    width:250px;
+    margin-left: 620px;
+
+}
+
+.container#senhaTutorial div#wall-6 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#senhaTutorial a.voltar#v6{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+
+}
+.container#senhaTutorial a.Avançar#a6{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************SETIMA PARTE********************/
+.container#senhaTutorial div#wall-7 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-7 img{
+    margin-top: -100px;
+    width:250px;
+    margin-left: 500px;
+
+}
+
+.container#senhaTutorial div#wall-7 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#senhaTutorial a.voltar#v7{
+    display: block;
+    float: left;
+    margin-top: 400px;
+
+
+}
+.container#senhaTutorial a.Avançar#a7{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************OITAVA PARTE********************/
+.container#senhaTutorial div#wall-8 p{
+    font-size: 25px;
+}
+.container#senhaTutorial div#wall-8 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#senhaTutorial div#wall-8 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#senhaTutorial a.voltar#v8{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#senhaTutorial a.Avançar#a8{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*********************************************/
+
+/**********************TUTORIAL LIGACAO***************************/
+/*Primeira parte*/
+
+.container#ligacaoTutorial div#wall-1 p{
+    font-size: 30px;
+}
+.container#ligacaoTutorial div#wall-1 img{
+    display: block;
+    display: inline;
+    width:250px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.container#ligacaoTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+.container#ligacaoTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    padding-top: 250px;
+
+
+}
+.container#ligacaoTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+    padding-top: 40px;
+
+}
+
+/*Segunda parte */
+.container#ligacaoTutorial div#wall-2 p{
+    text-align: justify;
+    font-size: 30px;
+}
+
+.container#ligacaoTutorial div#wall-2 img{
+    display: block;
+    float: right;
+    width:250px;
+    margin-top: 5px;
+
+
+}
+
+.container#ligacaoTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#ligacaoTutorial a.voltar#v2{
+    display: block;
+    float: left;
+    padding-top: 480px;
+
+
+}
+.container#ligacaoTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+    padding-top: 480px;
+    margin-right:  -300px;
+
+}
+
+/* Terceira parte */
+
+.container#ligacaoTutorial div#wall-3 p{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+.container#ligacaoTutorial div#wall-3 img{
+    display: block;
+    float: right;
+    margin-top: -150px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.container#ligacaoTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#ligacaoTutorial a.voltar#v3{
+    display: block;
+    float: left;
+    margin-top: 150px;
+
+}
+.container#ligacaoTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+    margin-left: 700px;
+    margin-top: 90px;
+
+}
+
+/*Quarta Parte */
+
+.container#ligacaoTutorial div#wall-4 p{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.container#ligacaoTutorial div#parteLeft{
+    display: block;
+    float: left;
+}
+.container#ligacaoTutorial div#parteLeft img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+
+}
+
+.container#ligacaoTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+.container#ligacaoTutorial div#parteRight{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    float: right;
+}
+
+.container#ligacaoTutorial div#parteRight img{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+.container#ligacaoTutorial a.voltar#v4{
+    display: block;
+    float: left;
+    margin-left: -200px;
+    margin-top: 500px;
+}
+.container#ligacaoTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+    margin-right: -500px;
+    margin-top: 500px;
+
+
+
+}
+/************* QUINTA PARTE********************/
+.container#ligacaoTutorial div#wall-5 p{
+    font-size: 25px;
+}
+.container#ligacaoTutorial div#wall-5 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#ligacaoTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#ligacaoTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#ligacaoTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+}
+/**********************************************/
+
+/******************************************************************/
+
+/*****************TUTORIAL CONTATO*********************************/
+/*************PRIMEIRA PARTE********************/
+.container#contatoTutorial div#wall-1 p{
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-1 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#contatoTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#contatoTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#contatoTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************SEGUNDA PARTE********************/
+.container#contatoTutorial div#wall-2 p{
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-2 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 750px;
+    margin-top: -200px;
+}
+
+.container#contatoTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#contatoTutorial a.voltar#v2{
+    display: block;
+    float: left;
+
+}
+.container#contatoTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************TERCEIRA PARTE********************/
+.container#contatoTutorial div#wall-3 p{
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-3 img{
+    width:250px;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+
+.container#contatoTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#contatoTutorial a.voltar#v3{
+    display: block;
+    float: left;
+
+}
+.container#contatoTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUARTA PARTE********************/
+.container#contatoTutorial div#wall-4 p{
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-4 img{
+    margin-top: -140px;
+    width:250px;
+    margin-left: 500px;
+
+}
+
+.container#contatoTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#contatoTutorial a.voltar#v4{
+    display: block;
+    float: left;
+    margin-top: 300px;
+
+}
+.container#contatoTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUINTA PARTE********************/
+.container#contatoTutorial div#wall-5 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-5 img{
+    position: absolute;
+    margin-top: -300px;
+    width:450px;
+    margin-left: 630px;
+
+
+}
+
+.container#contatoTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#contatoTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#contatoTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************QUINTA PARTE (Parte 1)********************/
+.container#contatoTutorial div#wall-5-1 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-5-1 img{
+    position: absolute;
+    margin-top: -300px;
+    width:450px;
+    margin-left: 630px;
+
+
+}
+
+.container#contatoTutorial div#wall-5-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#contatoTutorial a.voltar#v5-1{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#contatoTutorial a.Avançar#a5-1{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************QUINTA PARTE (Parte 2)********************/
+.container#contatoTutorial div#wall-5-2 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-5-2 img{
+    position: absolute;
+    margin-top: -300px;
+    width:450px;
+    margin-left: 630px;
+
+
+}
+
+.container#contatoTutorial div#wall-5-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#contatoTutorial a.voltar#v5-2{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#contatoTutorial a.Avançar#a5-2{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************QUINTA PARTE (Parte 3)********************/
+.container#contatoTutorial div#wall-5-3 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-5-3 img{
+    position: absolute;
+    margin-top: -300px;
+    width:450px;
+    margin-left: 630px;
+
+
+}
+
+.container#contatoTutorial div#wall-5-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#contatoTutorial a.voltar#v5-3{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#contatoTutorial a.Avançar#a5-3{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************SEXTA PARTE********************/
+.container#contatoTutorial div#wall-6 p{
+    font-size: 25px;
+}
+.container#contatoTutorial div#wall-6 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#contatoTutorial div#wall-6 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#contatoTutorial a.voltar#v6{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#contatoTutorial a.Avançar#a6{
+    display: block;
+    float: right;
+}
+/**********************************************/
+
+/******************************************************************/
+
+/***********************GOOGLE MAPS TUTORIAL***********************/
+/*************PRIMEIRA PARTE********************/
+.container#mapsTutorial div#wall-1 p{
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-1 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#mapsTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#mapsTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#mapsTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************SEGUNDA PARTE********************/
+.container#mapsTutorial div#wall-2 p{
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-2 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+
+.container#mapsTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#mapsTutorial a.voltar#v2{
+    display: block;
+    float: left;
+
+}
+.container#mapsTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************TERCEIRA PARTE********************/
+.container#mapsTutorial div#wall-3 p{
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-3 img{
+    width:250px;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+
+.container#mapsTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#mapsTutorial a.voltar#v3{
+    display: block;
+    float: left;
+
+}
+.container#mapsTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUARTA PARTE********************/
+.container#mapsTutorial div#wall-4 p{
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-4 img{
+    margin-top: -140px;
+    width:250px;
+    margin-left: 730px;
+
+}
+
+.container#mapsTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#mapsTutorial a.voltar#v4{
+    display: block;
+    float: left;
+
+
+}
+.container#mapsTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUINTA PARTE********************/
+.container#mapsTutorial div#wall-5 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-5 img{
+    margin-top: -300px;
+    width:300px;
+    margin-left: 580px;
+
+
+}
+
+.container#mapsTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#mapsTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#mapsTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************SEXTA PARTE********************/
+.container#mapsTutorial div#wall-6 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-6 img{
+    margin-top: -100px;
+    width:300px;
+    margin-left: 650px;
+
+
+}
+
+.container#mapsTutorial div#wall-6 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#mapsTutorial a.voltar#v6{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#mapsTutorial a.Avançar#a6{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+
+/*************SETIMA PARTE********************/
+.container#mapsTutorial div#wall-7 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-7 img{
+    margin-top: -100px;
+    width:300px;
+    margin-left: 580px;
+
+
+}
+
+.container#mapsTutorial div#wall-7 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#mapsTutorial a.voltar#v7{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#mapsTutorial a.Avançar#a7{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/**********************************************/
+/*************OITAVA PARTE********************/
+.container#mapsTutorial div#wall-8 p{
+    font-size: 25px;
+}
+.container#mapsTutorial div#wall-8 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#mapsTutorial div#wall-8 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#mapsTutorial a.voltar#v8{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#mapsTutorial a.Avançar#a8{
+    display: block;
+    float: right;
+}
+/**********************************************/
+
+/******************************************************************/
+
+/*************PLAY STORE******************/
+/*************PRIMEIRA PARTE********************/
+.container#storeTutorial div#wall-1 p{
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-1 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#storeTutorial div#wall-1 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#storeTutorial a.voltar#v1{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#storeTutorial a.Avançar#a1{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************SEGUNDA PARTE********************/
+.container#storeTutorial div#wall-2 p{
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-2 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 680px;
+    margin-top: -100px;
+}
+
+.container#storeTutorial div#wall-2 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#storeTutorial a.voltar#v2{
+    display: block;
+    float: left;
+
+}
+.container#storeTutorial a.Avançar#a2{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************TERCEIRA PARTE********************/
+.container#storeTutorial div#wall-3 p{
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-3 img{
+    display: block;
+    display: inline;
+    width:250px;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+
+.container#storeTutorial div#wall-3 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#storeTutorial a.voltar#v3{
+    display: block;
+    float: left;
+
+}
+.container#storeTutorial a.Avançar#a3{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUARTA PARTE********************/
+.container#storeTutorial div#wall-4 p{
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-4 img{
+    margin-top: -100px;
+    width:250px;
+    margin-left: 700px;
+
+}
+
+.container#storeTutorial div#wall-4 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#storeTutorial a.voltar#v4{
+    display: block;
+    float: left;
+
+}
+.container#storeTutorial a.Avançar#a4{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*************QUINTA PARTE********************/
+.container#storeTutorial div#wall-5 p{
+    margin-right: 300px;
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-5 img{
+    margin-top: -100px;
+    width:250px;
+    margin-left: 600px;
+
+
+}
+
+.container#storeTutorial div#wall-5 a{
+    font-size: 30px;
+    color: black;
+}
+
+.container#storeTutorial a.voltar#v5{
+    display: block;
+    float: left;
+    margin-top: 50px;
+
+}
+.container#storeTutorial a.Avançar#a5{
+    display: block;
+    float: right;
+    margin-top: 50px;
+}
+/*************SEXTA PARTE********************/
+.container#storeTutorial div#wall-6 p{
+    font-size: 25px;
+}
+.container#storeTutorial div#wall-6 img{
+    position: relative;
+    display: block;
+    display: inline;
+    width:250px;
+}
+
+.container#storeTutorial div#wall-6 a{
+    font-size: 30px;
+    color: black;
+}
+
+
+.container#storeTutorial a.voltar#v6{
+    display: block;
+    float: left;
+    margin-top: 250px;
+
+}
+.container#storeTutorial a.Avançar#a6{
+    display: block;
+    float: right;
+}
+/**********************************************/
+/*********************************************/
+nav ul a,
+nav .brand-logo {
+
+  color: #444;
+  font-weight: bold;
+    font-size: 30px;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+
+
+.sidenav-trigger {
+  color: #ffffff;
+}
+
+img#logoTutorial{
+    width: 700px;
+}
+img#logoTuto{
+    margin-top: 10%;
+    width: 400px;
+}
+img#logoTuto2{
+    width: 200px;
+}
+img#logo2{
+    alignment: center;
+    width: 800px;
+}
+img#logoFooter{
+    width: 450px;
+}
+img#logo{
+  width: 400px;
+}
+img#logo1{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: -22%;
+
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgb(6,0,193);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

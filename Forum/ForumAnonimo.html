@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<!--Menu de Navegacao-->
+<nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../tutoriais.html">Tutoriais</a></li>
+            <li><a href="../Forms/FormLogin.html">Fórum</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutoriais</a></li>
+            <li><a href="#">Fórum</a></li>
+
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<!---->
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2"></h1>
+            <div class="row center">
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="parallax"><img id="forumBanner" src="../images/forum.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div  id="forum" class="container">
+    <div class="section">
+
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+
+                    <a  id="logoForum" href="#!" class="input-field"> <img id="logoAnonimo2" src="../images/forumLogo.png"><img id="logoAnonimo" src="../images/logo.png"></a>
+                    <ul class="right">
+                        <li><a>Inicio</a></li>
+                        <li><a class="menuAnonimo">Dúvidas Frequentes</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <div style=" width: 950px;height:400px; display:block ;float:right; position: relative">
+                       <p id="perguntasAnonimas">Perguntas mais recentes </p>
+
+
+                </div>
+                <div style="margin-left:30px;">
+                    <div> <img id="userAnonimo" src="../images/user.png">
+                        <p id="userAnonimoP">Usuário Anonimo</p>
+
+                            <div class="row">
+                            <form name="pergunta" method="post" >
+                                <input type="text" name="resposta" id="resposta" placeholder="Digite sua Pergunta">
+                                <button style="width: 100%" class="btn waves-effect waves-light" type="button" name="salvarResposta" onclick="CadastroResposta()">Enviar
+                                </button>
+                            </form>
+
+                            </div>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer teal">
+    <div id="sobreNos" class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Sobre nós</h5>
+                <p class="grey-text text-lighten-4">Somos um site voltado para produção de materiais didáticos, que forneçam conhecimento de forma fácil e agradável.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div id="nomesFooter" class="container">
+            Copyright © 2018 , by Maicon Silva Godoy and Macaulay Clemente
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+<script src="../js/vendor/jquery-1.11.2.min.js"></script>
+<script src="../js/materialize.min.js"></script>
+
+</body>
+</html>

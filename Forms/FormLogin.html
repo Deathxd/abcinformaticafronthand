@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<!--Menu de Navegacao-->
+<nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../tutoriais.html">Tutoriais</a></li>
+            <li><a href="FormLogin.html">Fórum</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutoriais</a></li>
+            <li><a href="#">Fórum</a></li>
+
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<!---->
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2"></h1>
+            <div class="row center">
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="parallax"><img src="../images/loginform.png" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div id="formLogin" class="container">
+    <div class="section">
+
+        <div class="row">
+            <h1>Login:</h1>
+            <form name="login" action="" method="post" >
+                <label>Login:</label>
+                <input type="text" id="login" name="login"  required/>
+                <label>Senha:</label>
+                <input type="password" id="senha" name="senha" required/>
+                <button style="width: 100%" class="btn waves-effect waves-light" type="button" name="Logar" onclick="entrar()">Logar
+                </button>
+            </form>
+            Não possui uma conta? <a style="color: #4ca5ff" href="formCadastro.html" >Cadastre-se </a><br>
+            Faça sua pergunta anonimamente!  <a style="color: #4ca5ff" href="#" >Clique aqui !</a>
+        </div>
+    </div>
+</div>
+<footer class="page-footer teal">
+    <div id="sobreNos" class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Sobre nós</h5>
+                <p class="grey-text text-lighten-4">Somos um site voltado para produção de materiais didáticos, que forneçam conhecimento de forma fácil e agradável.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div id="nomesFooter" class="container">
+            Copyright © 2018 , by Maicon Silva Godoy and Macaulay Clemente
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+<script src="../js/vendor/jquery-1.11.2.min.js"></script>
+<script>
+    function talogado() {
+        if(sessionStorage.logado){
+            window.location = "../Forum/forum.html"
+        }
+    }
+    talogado();
+
+</script>
+
+</body>
+</html>

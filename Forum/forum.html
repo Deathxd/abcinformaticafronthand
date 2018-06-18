@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<!--Menu de Navegacao-->
+<nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../tutoriais.html">Tutoriais</a></li>
+            <li><a href="../Forms/FormLogin.html">Fórum</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tutoriais</a></li>
+            <li><a href="#">Fórum</a></li>
+
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<!---->
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center teal-text text-lighten-2"></h1>
+            <div class="row center">
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="parallax"><img id="forumBanner" src="../images/forum.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+
+<div  id="forum" class="container">
+    <div class="section">
+
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+
+                    <a  id="logoForum" href="#!" class="input-field">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forum Abc Informática</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a >Inicio</a></li>
+                        <li><a>Dúvidas Frequentes</a></li>
+                        <li><a >Minhas duvidas</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <div style=" width: 950px;height:400px; display:block ;float:right; position: relative">
+
+                        <h1>Em breve teremos nosso forum!</h1>
+                    <h5>Desculpe o transtorno <span id="nomeSorry"></span>, aguarde por mais novidades!</h5>
+
+
+                </div>
+                <div style="margin-left:30px;">
+                    <div> <img style="width: 150px" src="../images/user.png">
+                    </div>
+                    <div> <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Dados Pessoais</a> </div>
+                    <button style="background-color: #ee4f4b" id="botaoSair" class="waves-effect waves-light btn-small" onclick="islogado()">Sair</button>
+                </div>
+
+
+
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Dados Pessoais</h4>
+                        <table class="responsive-table" id="tabelaForum">
+                            <tr>
+                                <td>Nome: </td>
+                                <td id="nome"></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td id="email"></td>
+                            </tr>
+                            <tr>
+                                <td>Idade</td>
+                                <td id="idade"></td>
+                            </tr>
+                            <tr>
+                                <td>Cpf</td>
+                                <td id="cpf"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">ok</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer teal">
+    <div id="sobreNos" class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Sobre nós</h5>
+                <p class="grey-text text-lighten-4">Somos um site voltado para produção de materiais didáticos, que forneçam conhecimento de forma fácil e agradável.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text"></h5>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div id="nomesFooter" class="container">
+            Copyright © 2018 , by Maicon Silva Godoy and Macaulay Clemente
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+<script src="../js/vendor/jquery-1.11.2.min.js"></script>
+<script src="../js/materialize.min.js"></script>
+<script>
+    document.getElementById("nome").innerHTML = sessionStorage.nome;
+    document.getElementById("email").innerHTML = sessionStorage.email;
+    document.getElementById("cpf").innerHTML = sessionStorage.cpf;
+    document.getElementById("idade").innerHTML = sessionStorage.idade;
+    document.getElementById("nomeSorry").innerHTML = sessionStorage.nome;
+    function islogado() {
+        sessionStorage.clear();
+        alert("Saida do forum com sucesso!");
+        window.location = "../Forms/FormLogin.html"
+
+    }
+</script>
+<script>
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
+</script>
+</body>
+</html>
